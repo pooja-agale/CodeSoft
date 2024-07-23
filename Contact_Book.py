@@ -76,20 +76,6 @@ def delete_contact():
         task_list.delete(selected_contact)
 
 
-'''def show_update_window():
-    update_window = Toplevel(window)
-    update_window.title('Update Contact')
-    update_window.geometry('300x300')
-    update_window.config(bg='maroon')
-
-    update_listbox = tk.Listbox(update_window)
-    update_listbox.pack(fill=tk.BOTH, expand=True)
-
-    for contact in contacts:
-        print(f"Displaying contact: {contact['name']} - {contact['contact']}")
-        update_listbox.insert(tk.END, f"{'name'} : {'contact'}")'''
-
-
 label = tk.Label(window, text='CONTACT BOOK', bg='white', fg='black', font=('Times New Roman', 15))
 label.place(x=170, y=20)
 
@@ -115,9 +101,6 @@ task_list.place(x=150, y=220)
 
 button = tk.Button(window, text='Search Contact ', bg='white', fg='black', command=search_contact, font=('Times New Roman', 11))
 button.place(x=20, y=320)
-
-'''button = tk.Button(window, text='Update Contact ', bg='white', fg='black',  font=('Times New Roman', 10))
-button.place(x=20, y=350)'''
 
 button = tk.Button(window, text='Delete Contact ', bg='white', fg='black', command=delete_contact, font=('Times New Roman', 11))
 button.place(x=20, y=410)
