@@ -109,3 +109,46 @@ Copy code
 password_len = 12  # For a 12-character password
 Technologies Used:
 Python: The script is written in Python and utilizes the built-in random and string modules.
+
+# To-Do List Application
+
+This is a simple graphical user interface (GUI) To-Do List application built using Python's Tkinter library. The app allows users to add, delete, track, and update tasks, making it easier to manage tasks in an organized way.
+
+Features:
+Add Tasks: Users can add tasks by typing in the input field and clicking the "Add Task" button.
+Delete Tasks: Selected tasks can be deleted by choosing the task from the list and clicking the "Delete Task" button.
+Update Task List: The task list can be refreshed and updated by clicking the "Update Task" button.
+Track Tasks: Displays a list of all added tasks in a separate window when the "Track To-Do List" button is clicked.
+Exit: A simple exit button to close the application.
+How It Works:
+Adding Tasks: When a user enters a task and clicks the "Add Task" button, it is added to both the displayed list (Listbox) and the tasks list.
+Deleting Tasks: Selecting a task from the list and clicking "Delete Task" removes the task from the list and updates the task display.
+Tracking Tasks: Clicking "Track To-Do List" opens a new window showing all current tasks.
+Updating Task List: Clicking "Update Task" refreshes the task display to ensure the latest tasks are shown.
+Closing the App: The "Exit" button closes the app.
+Code Breakdown:
+add_task(): Adds the entered task to the tasks list and updates the Listbox.
+delete_task(): Deletes the selected task from both the tasks list and the Listbox.
+show_tracked_tasks(): Opens a new window to show all tasks in the list.
+update_task_section(): Updates the Listbox by reloading the list of tasks.
+UI Setup: The user interface is created using Tkinter widgets such as Label, Entry, Listbox, and Button. The window is configured with a purple background.
+Technologies Used:
+Python: The application is written in Python.
+Tkinter: This is the standard GUI library in Python, used for building the graphical interface of the app.
+How to Run:
+Python Installation: Ensure that Python is installed on your system.
+Tkinter Library: Tkinter comes pre-installed with Python, but if not available, install it using:
+bash
+Copy code
+pip install tk
+Run the Script: Run the Python script from your terminal or an IDE to open the To-Do List application.
+Example Usage:
+Add a task like "Buy groceries" using the input field.
+Delete a task by selecting it from the task list and clicking the "Delete Task" button.
+View all tracked tasks in a new window by clicking the "Track To-Do List" button.
+Update or refresh the task list by clicking "Update Task".
+Screenshots (optional):
+Add screenshots to showcase the functionality of the app.
+
+
+
