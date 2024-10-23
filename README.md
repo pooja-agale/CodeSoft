@@ -76,6 +76,10 @@ Click "Submit" to add the contact.
 Viewing Contacts:
 
 Click the "View Contact" button to see all contacts.
+
+
+# Random Password Generator
+
 Searching for a Contact:
 
 Click the "Search Contact" button.
@@ -83,3 +87,33 @@ Enter the name you wish to search for and click "Search".
 Deleting a Contact:
 
 Select a contact from the list and click the "Delete Contact" button
+
+This Python script generates a random password consisting of uppercase and lowercase letters, digits, and special characters. It uses the random and string modules to create secure passwords.
+
+Features:
+Random Password Generation: The script generates an 8-character password by default, combining letters, numbers, and special characters for enhanced security.
+Customizable Length: You can modify the length of the password by changing the value of password_len.
+How It Works:
+Password Length: The script sets the password length to 8 characters.
+Character Pool: It uses string.ascii_letters, string.digits, and string.punctuation to create a pool of possible characters.
+Password Generation: The script loops through and selects random characters from the pool to create a password.
+Output: Once the password is generated, it is displayed in the console.
+Code Breakdown:
+string.ascii_letters: Contains all lowercase and uppercase English letters.
+string.digits: Contains numbers 0-9.
+string.punctuation: Contains special characters like !@#$%^&*(), etc.
+random.choice(): Randomly selects a character from the available pool for each position in the password.
+Example Usage:
+perl
+Copy code
+Your random password: 4$eG&n@B
+How to Run:
+Python Installation: Ensure you have Python installed on your system.
+Run the Script: Execute the script in your terminal or IDE. The randomly generated password will be printed to the console.
+Customization:
+To increase or decrease the password length, modify the password_len variable at the top of the script.
+python
+Copy code
+password_len = 12  # For a 12-character password
+Technologies Used:
+Python: The script is written in Python and utilizes the built-in random and string modules.
