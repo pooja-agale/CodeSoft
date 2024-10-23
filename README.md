@@ -1,6 +1,6 @@
 # CodeSoft
 
-Simple Python Calculator
+# Simple Python Calculator
 This is a basic calculator script written in Python. The program takes two numbers and an operator as input from the user and performs the corresponding mathematical operation (addition, subtraction, multiplication, division, or percentage). The result is then displayed to the user.
 
 Features:
