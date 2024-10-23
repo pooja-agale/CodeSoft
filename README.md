@@ -80,14 +80,6 @@ Click the "View Contact" button to see all contacts.
 
 # Random Password Generator
 
-Searching for a Contact:
-
-Click the "Search Contact" button.
-Enter the name you wish to search for and click "Search".
-Deleting a Contact:
-
-Select a contact from the list and click the "Delete Contact" button
-
 This Python script generates a random password consisting of uppercase and lowercase letters, digits, and special characters. It uses the random and string modules to create secure passwords.
 
 Features:
