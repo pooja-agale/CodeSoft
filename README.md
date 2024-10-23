@@ -37,3 +37,49 @@ Setup Instructions:
 Ensure Python is installed on your system.
 Run the script (calculator.py) in a Python environment.
 Follow the on-screen instructions to input numbers and choose an operator.
+
+
+# Contact Book Application
+
+This is a Python-based Contact Book application built using the Tkinter library for creating a graphical user interface (GUI). The application allows users to add, view, search, and delete contacts easily. It offers a simple and intuitive interface for managing a list of contacts with names and phone numbers.
+
+Features:
+Add Contact: Users can enter a name and contact number, which is then added to the contact list.
+View Contact: Displays the entire list of contacts in a separate window.
+Search Contact: Users can search for a contact by name, and the matching results are displayed.
+Delete Contact: Users can select a contact from the list and delete it.
+Close Button: An exit button is provided to close the application at any point.
+How It Works:
+Main Window: The main window contains input fields for the name and contact number, along with buttons to submit the contact, view all contacts, search for a contact, and delete a selected contact.
+Adding Contacts: Users can add contacts by entering the name and phone number and clicking the "Submit" button. The contact is then stored in a list and displayed in the contact listbox.
+Viewing Contacts: The "View Contact" button opens a new window where the user can see all saved contacts.
+Searching Contacts: The "Search Contact" button opens a new window where users can enter a name to search for. If any matches are found, they are displayed in a list.
+Deleting Contacts: The "Delete Contact" button allows users to remove a selected contact from the list.
+Project Structure:
+Tkinter GUI: This application uses Tkinter to create a user-friendly graphical interface.
+Listbox: The Listbox widget is used to display the list of contacts and results.
+Entry Fields: Two entry fields are provided for users to input names and contact numbers.
+Technologies Used:
+Python: The primary language used for building the application.
+Tkinter: A Python library for building desktop GUI applications.
+Toplevel Widgets: Used to create additional windows for viewing and searching contacts.
+Setup Instructions:
+Python Installation: Make sure you have Python installed on your machine.
+Run the Script: Clone the repository and run the contact_book.py file to start the application.
+Adding Contacts: Input the contact details in the provided fields and manage your contacts easily.
+Example Usage:
+Adding a Contact:
+
+Enter a name in the "Name" field.
+Enter the contact number in the "Add Contact" field.
+Click "Submit" to add the contact.
+Viewing Contacts:
+
+Click the "View Contact" button to see all contacts.
+Searching for a Contact:
+
+Click the "Search Contact" button.
+Enter the name you wish to search for and click "Search".
+Deleting a Contact:
+
+Select a contact from the list and click the "Delete Contact" button
